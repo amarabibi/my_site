@@ -1,0 +1,111 @@
+body {
+  background-color: #f8f9fa;
+}
+
+/* Sidebar hover-expand */
+.sidebar {
+  width: 70px;
+  transition: width 0.3s;
+  min-height: calc(100vh - 56px);
+  position: sticky;
+  top: 56px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  color: #ddd;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sidebar a i {
+  font-size: 18px;
+  width: 30px;
+  text-align: center;
+}
+
+.sidebar a span {
+  display: none;
+  margin-left: 8px;
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.sidebar:hover a span {
+  display: inline;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Filters look */
+.filters {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+.filters select,
+.filters button {
+  border-radius: 20px;
+}
+/* Main content background */
+.flex-grow-1 {
+  background: linear-gradient(135deg, #f9fafb 0%, #eef1f5 100%);
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+}
+
+/* Filters sticky shadow */
+.sticky-top {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Icons hover effect */
+.card-body i {
+  transition: transform 0.2s ease;
+}
+
+.card-body:hover i {
+  transform: scale(1.1);
+}
+
+.flex-grow-1 {
+  background: linear-gradient(135deg, #f9fafb 0%, #eef1f5 100%);
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.sticky-top {
+  background: white;
+  border-radius: 10px;
+}
+
+.card-body i {
+  transition: transform 0.2s ease;
+}
+
+.card-body:hover i {
+  transform: scale(1.1);
+}
+
+.input-group input {
+  border-radius: 6px 0 0 6px;
+}
+
+.input-group button {
+  border-radius: 0 6px 6px 0;
+}
